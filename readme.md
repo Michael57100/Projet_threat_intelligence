@@ -4,7 +4,7 @@ A library of rules to detect potentially fraudulent gaming websites.
 
 # Description:
 
-The goal is to create a list of files using the AIL-typosquatting library in order to create relevant files that could detect copycats of famous gaming websites. 
+The goal is to create a list of files using the [AIL-typosquatting](https://github.com/typosquatter/ail-typo-squatting) library in order to create relevant files that could detect copycats of famous gaming websites. 
 
 Often times, scammers will try to replicate the look of a legit website to convince targets to log in on their copied website and retrieve the credentials to then steal any item of value on the account.
 
