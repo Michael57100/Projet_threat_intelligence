@@ -1,0 +1,34 @@
+{
+  "name": "List of know Video Games' platforms",
+  "version": 1,
+  "description": "Contains well-known video game platforms",
+  "matching_attributes": [
+    "", // We don't know 
+  ],
+  "list": [
+  "Steam",
+  "Ubisoft Connect",
+  "Origin",
+  "Epic Games Store",
+  "GOG",
+  "Battle.net",
+  "Xbox Live",
+  "PlayStation Network",
+  "Nintendo eShop",
+  "Humble Bundle",
+  "itch.io",
+  "Bethesda.net",
+  "Rockstar Games Launcher",
+  "Microsoft Store",
+  "Google Play Store",
+  "App Store",
+  "PlayStation Now",
+  "Xbox Game Pass",
+  "EA Play",
+  "Blizzard Battle.net",
+  "Samsung Galaxy Store",
+  "VIVEPORT",
+  "Oculus Store"
+]
+
+}
