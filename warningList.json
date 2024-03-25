@@ -3,32 +3,25 @@
   "version": 1,
   "description": "Contains well-known video game platforms",
   "matching_attributes": [
-    "", // We don't know 
+    "url", 
   ],
   "list": [
-  "Steam",
-  "Ubisoft Connect",
-  "Origin",
-  "Epic Games Store",
-  "GOG",
-  "Battle.net",
-  "Xbox Live",
-  "PlayStation Network",
-  "Nintendo eShop",
-  "Humble Bundle",
+  "https://store.steampowered.com",
+  "https://ubisoftconnect.com",
+  "https://www.ea.com",
+  "https://store.epicgames.com",
+  "https://www.gog.com/",
+  "https://eu.shop.battle.net",
+  "https://www.xbox.com",
+  "https://www.playstation.com/playstation-network/",
+  "https://www.nintendo.com",
+  "https://www.humblebundle.com",
   "itch.io",
   "Bethesda.net",
-  "Rockstar Games Launcher",
-  "Microsoft Store",
-  "Google Play Store",
-  "App Store",
-  "PlayStation Now",
-  "Xbox Game Pass",
-  "EA Play",
-  "Blizzard Battle.net",
-  "Samsung Galaxy Store",
-  "VIVEPORT",
-  "Oculus Store"
+  "https://www.rockstargames.com",
+  "https://www.microsoft.com",
+  "https://play.google.com",
+  "https://www.viveport.com"
 ]
 
 }
