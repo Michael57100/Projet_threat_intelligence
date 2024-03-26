@@ -38,3 +38,5 @@ There are two approaches that we have thought of to implement this:
 1. Check relevant HTML tags such as nav, footer and img: these should be copied 1 to 1 on a relevant copycat website to fool the end user and make him believe he is on the legit website. If those tags were at least 60% (could be more or less) similar to the legit site then it could be considered as fraudulent.
 
 2. Use [Lookyloo](https://github.com/Lookyloo/lookyloo) or another capture tool that creates a screenshot of the instance and renders it in an image file to then analyze the screenshot with AI and compare it to the legit website. Upon a decided threshold of similarity, the website could then be considered as malicious.
+
+Of course, processing power would be a limitation as the number of typosquats is quite big and each capture would take a certain amount of time. Even pinging each website could take some time, so these are considerations to take into account.
