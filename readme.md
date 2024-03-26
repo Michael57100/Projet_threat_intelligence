@@ -26,3 +26,15 @@ python3 ./gaming_threats.py
 ```
 
 You should now see a bunch of new .yar and .regex files in the current folder.
+
+# TODO
+
+Given the time constraint of this project, not everything we wanted to achieve has been done.
+
+To fully test the different URLs, it would have been optimal to make a capture of the different typosquatted websites and compare them to the legit website.
+
+There are two approaches that we have thought of to implement this:
+
+1. Check relevant HTML tags such as nav, footer and img: these should be copied 1 to 1 on a relevant copycat website to fool the end user and make him believe he is on the legit website. If those tags were at least 60% (could be more or less) similar to the legit site then it could be considered as fraudulent.
+
+2. Use [Lookyloo](https://github.com/Lookyloo/lookyloo) or another capture tool that creates a screenshot of the instance and renders it in an image file to then analyze the screenshot with AI and compare it to the legit website. Upon a decided threshold of similarity, the website could then be considered as malicious.
